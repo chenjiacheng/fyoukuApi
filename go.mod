@@ -12,5 +12,6 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/smartystreets/goconvey v1.6.4
+	github.com/streadway/amqp v1.0.0 // indirect
 	gopkg.in/ini.v1 v1.63.2 // indirect
 )

@@ -6,6 +6,7 @@ require github.com/beego/beego/v2 v2.0.1
 
 require (
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.1264 // indirect
+	github.com/garyburd/redigo v1.6.2 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect

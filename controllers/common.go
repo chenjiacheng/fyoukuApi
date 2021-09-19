@@ -36,9 +36,14 @@ func ReturnError(code int, msg interface{}) (json *JsonStruct) {
 	return
 }
 
+// 用户密码加密
 func MD5V(password string) string {
 	h := md5.New()
-	h.Write([]byte(password))
+	s, err := beego.AppConfig.String("md5code")
+	if err != nil {
+		return ""
+	}
+	h.Write([]byte(password + s))
 	return hex.EncodeToString(h.Sum(nil))
 }
 
